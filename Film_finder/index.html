@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer type="text/javascript" src="list_of_all_movies.js"></script>
+    <script defer type="text/javascript" src="script.js"></script>
+    <title>Winc Film finder</title>
+</head>
+
+<body class="grid_body">
+    <header class="grid_header">
+        <h1>Winc Film Finder</h1>
+        <nav id="movie_selectors">
+            <input type="radio" id="all_movies" name="movie_selector" value="all_movies">
+            <label for="all_movies">All movies</label>
+            <input type="radio" id="new_movies" name="movie_selector" value="new_movies">
+            <label for="new_movies">New movies - 2014 or newer</label>
+            <input type="radio" id="avengers_movies" name="movie_selector" value="avengers_movies">
+            <label for="avengers_movies">Avengers movies</label>
+            <input type="radio" id="x-men_movies" name="movie_selector" value="x-men_movies">
+            <label for="x-men_movies">X-Men movies</label>
+            <input type="radio" id="princess_movies" name="movie_selector" value="princess_movies">
+            <label for="princess_movies">Princess movies</label>
+            <input type="radio" id="batman_movies" name="movie_selector" value="batman_movies">
+            <label for="batman_movies">Batman movies</label>
+        </nav>
+    </header>
+    <main class="grid_main">
+        <ul id="movie_images_list"></ul>
+    </main>
+</body>
+
+</html>
